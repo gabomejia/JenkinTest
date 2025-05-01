@@ -14,9 +14,9 @@ Feature: Navigation bar
     #         | Newsletter |
 
 
-
-    Scenario: Courses are presented correctly to potential customers
-        Given I navigate to www.freerangetesters.com
-        When I go to Cursos using the navigation bar
+@Test
+Scenario: Courses are presented correctly to potential customers
+    Given I navigate to www.freerangetesters.com
+    When I go to Cursos using the navigation bar
 
 
